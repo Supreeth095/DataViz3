@@ -43,7 +43,7 @@ Let's try to create a heatmap simply showing the number of crimes reported since
 - To create the heatmap we need to show the total number of crimes reported on each NPU. We need the field `Number of records` for doing this. Drag and drop such field into the Marks area and select `Color` as a channel to be used.
 - Sadly, Tableau does not understand how to aggregate data, but that is going to be a very easy fix. Just drop and drop the `NPU` field from `COBRA` into the Marks area and BOOM, we will get what we were searching for.
 
-![chart1](/Sheet1.png)
+![chart1](/Sheet 1.png)
 
 
 
@@ -54,16 +54,16 @@ Take the sketches you made during assignment 2 for answering the following quest
 
 1. What are the most dangerous neighborhoods?
 
-![chart1](/Sheet2.png)
+![chart1](/Sheet 2.png)
 
 
 2. What are the most dangerous times of day?
 
-![chart1](/Sheet3.png)
+![chart1](/Sheet 3.png)
 
 3. Are crimes increasing or decreasing since 2008?
 
-![chart1](/Sheet4.png)
+![chart1](/Sheet 4.png)
 
 Create three worksheets either by implementing your original sketches submitted for Assignment 2 or by creating brand new visualizations.
 
