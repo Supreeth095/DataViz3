@@ -72,6 +72,8 @@ Create three worksheets either by implementing your original sketches submitted 
 
 Create a dashboard for studying the crimes in the city of Atlanta. The dashboard will have to integrate filtering and interactive techniques for studying how crimes changed over time (years). The dashboard will have to include also a map for showing the geographical distribution of the crimes.
 
+![chart1](/Dashboard1.png)
+
 
 ### Submission
 
