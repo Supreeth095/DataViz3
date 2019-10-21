@@ -190,6 +190,20 @@ Create a dashboard for studying the crimes in the city of Atlanta. The dashboard
 ![chart1](/Dashboard1.png)
 
 
+Interactions provided by the Dashboard:
+
+Dashboard contains 3 worsheets:
+Worksheet 1. Most Dangerous Neighbourhoods in Atlanta.
+Worksheet 2. Most Dangerous times of day in Atlanta.
+Worksheet 3. Crime trends since 2008 in Atlanta.
+
+Worksheets 1 and 2 change with year selected in the drop-down and user interaction is possible. 
+Worksheet 3 remains independant of the year drop down.
+
+
+
+
+
 ### Submission
 
 Upload your Tableau workbook.
