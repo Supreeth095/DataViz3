@@ -46,6 +46,17 @@ Let's try to create a heatmap simply showing the number of crimes reported since
 ![chart1](/Sheet1.png)
 
 
+
+
+Design choices: 
+
+1..I have used the amount of luminance to display the heat map for the number of crimes. 
+A higher luminance implies high crime rate.
+A lower luminance implies lower crime rate.
+This is intuitive to the observer.
+
+2.I have used Area to display the various NPUs. This is the best for of representation as all the details such as size, shape of the NPU etc. can be seen by the user. 
+
 Attributes and their marks and channels are:
 
 1.NPU Name
@@ -65,14 +76,7 @@ Mark: Area
 Channel: color
 
 
-Design choices: 
 
-1..I have used the amount of luminance to display the heat map for the number of crimes. 
-A higher luminance implies high crime rate.
-A lower luminance implies lower crime rate.
-This is intuitive to the observer.
-
-2.I have used Area to display the various NPUs. This is the best for of representation as all the details such as size, shape of the NPU etc. can be seen by the user. 
 
 
 
@@ -84,6 +88,18 @@ Take the sketches you made during assignment 2 for answering the following quest
 1. What are the most dangerous neighborhoods?
 
 ![chart1](/Sheet2.png)
+
+
+Design choices: 
+
+1.I have used the amount of saturation+ hue (yellow to red) to display the heat map for the number of crimes. 
+A higher luminance implies high crime rate.
+A lower luminance implies lower crime rate.
+This is intuitive to the observer.
+
+2.I have used Area to display the various Neighborhoods. This is the best for of representation as all the details such as size, shape of the Neighborhood etc., can be seen by the user. 
+
+3.I have added a time drop down so that the user can see the values based on the year. 
 
 
 
@@ -105,14 +121,7 @@ Mark: Area
 
 Channel: color
 
-Design choices: 
 
-1.I have used the amount of saturation+ hue (yellow to red) to display the heat map for the number of crimes. 
-A higher luminance implies high crime rate.
-A lower luminance implies lower crime rate.
-This is intuitive to the observer.
-
-2.I have used Area to display the various Neighborhoods. This is the best for of representation as all the details such as size, shape of the Neighborhood etc., can be seen by the user. 
 
 
 
@@ -121,6 +130,15 @@ This is intuitive to the observer.
 
 
 ![chart1](/Sheet3.png)
+
+
+
+Design choices: 
+
+I have used hour(time) as a position on the Y axis and number of crimes on the X axis. 
+I have used a bar chart so that it is easy to get the trends of crimes in the day and over the years. 
+I have added a time drop down so that the user can see the values based on the year. 
+
 
 
 Attributes and their marks and channels are:
@@ -144,16 +162,18 @@ Channel: Position(Horizontal)
 
 
 
-Design choices: 
 
-I have used hour(time) as a position on the Y axis and number of crimes on the X axis. 
-I have used a bar chart so that it is easy to get the trends of crimes in the day and over the years. 
 
 
 3. Are crimes increasing or decreasing since 2008?
 
 ![chart1](/Sheet4.png)
 
+
+Design choices: 
+
+I have used year(time) as a position on the X axis and number of crime records on the Y axis. 
+I have used a line chart so that it is easy to get the trends of total yearly crimes.
 
 
 Attributes and their marks and channels are:
@@ -174,10 +194,7 @@ Mark: Point
 
 Channel: Position(Vertical) 
 
-Design choices: 
 
-I have used year(time) as a position on the X axis and number of crimes on the Y axis. 
-I have used a line chart so that it is easy to get the trends of total yearly crimes.
 
 
 Create three worksheets either by implementing your original sketches submitted for Assignment 2 or by creating brand new visualizations.
@@ -197,6 +214,7 @@ Worksheet 1. Most Dangerous Neighbourhoods in Atlanta.
 Worksheet 2. Most Dangerous times of day in Atlanta.
 Worksheet 3. Crime trends since 2008 in Atlanta.
 
+Interaction:
 Worksheets 1 and 2 change with year selected in the drop-down and user interaction is possible. 
 Worksheet 3 remains independant of the year drop down.
 
