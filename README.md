@@ -57,13 +57,75 @@ Take the sketches you made during assignment 2 for answering the following quest
 ![chart1](/Sheet2.png)
 
 
+
+Attributes and their marks and channels are:
+
+1.Neighborhood Name
+
+Type:Categorical
+
+Mark: Area
+
+Channel: Shape
+
+2.Number of records
+
+Type:Ordinal
+
+Mark: Area
+
+Channel: color
+
+
+
+
 2. What are the most dangerous times of day?
 
 ![chart1](/Sheet3.png)
 
+Attributes and their marks and channels are:
+
+1.Time (hour):
+
+Type:Ordinal
+
+Mark: point
+
+Channel: Position(Vertical)
+
+2.Number of Crimes records in each interval
+
+Type:Quantitative
+
+Mark: point
+
+Channel: Position(Horizontal)+ Size(Length)
+
+
+
 3. Are crimes increasing or decreasing since 2008?
 
 ![chart1](/Sheet4.png)
+
+
+Attributes and their marks and channels are:
+
+1.Occur Date(Year)
+
+Type:Ordinal
+
+Mark: Point
+
+Channel: Position(Horizontal)
+
+2.Number of Crime records in each year
+
+Type:Quantitative
+
+Mark: Point
+
+Channel: Position(Vertical) 
+
 
 Create three worksheets either by implementing your original sketches submitted for Assignment 2 or by creating brand new visualizations.
 
