@@ -56,7 +56,14 @@ A lower luminance implies lower crime rate.
 This is intuitive to the observer.
 
 2.I have used Area to display the various NPUs. This is the best for of representation as all the details such as size, shape of the NPU etc. can be seen by the user. 
+
 3. Since the data set focuses on crime records since 2008, I have filtered out the previous years' records for all visualizations. 
+4. Interactions: Hovering over an NPU area will give the details:
+    1. Name of the NPU
+    2. Year of occur date
+    3. Number of records.
+
+
 
 
 Attributes and their marks and channels are:
@@ -103,6 +110,11 @@ This is intuitive to the observer.
 
 3.I have added a time drop down so that the user can see the values based on the year. 
 
+4. Interactions: Hovering over an Neigborhood area will give the details:
+    1. Name of the Neigborhood
+    2. Year of occur date
+    3. Number of records.
+
 
 
 Attributes and their marks and channels are:
@@ -141,6 +153,12 @@ I have used hour(time) as a position on the Y axis and number of crimes on the X
 I have used a bar chart so that it is easy to get the trends of crimes in the day and over the years. 
 I have added a time drop down so that the user can see the values based on the year. 
 
+Interactions: Hovering over a bar area will give the details:
+    1. Hour part in the time interval
+    2. Year of occur date
+    3. Number of records.
+
+
 
 
 Attributes and their marks and channels are:
@@ -176,6 +194,11 @@ Design choices:
 
 I have used year(time) as a position on the X axis and number of crime records on the Y axis. 
 I have used a line chart so that it is easy to get the trends of total yearly crimes.
+
+Interactions: Hovering over a line area will give the details:
+    1. Year of occur date of the next point.
+    2. Number of records.
+
 
 
 Attributes and their marks and channels are:
@@ -216,9 +239,34 @@ Worksheet 1. Most Dangerous Neighbourhoods in Atlanta.
 Worksheet 2. Most Dangerous times of day in Atlanta.
 Worksheet 3. Crime trends since 2008 in Atlanta.
 
-Interaction:
+Interactions:
+
+
+In Worksheets 1:
+    Hovering over an Neigborhood area will give the details:
+    1. Name of the Neigborhood
+    2. Year of occur date
+    3. Number of records.
+
+In Worksheet 2:
+  Interactions: Hovering over a bar area will give the details:
+    1. Hour part in the time interval
+    2. Year of occur date
+    3. Number of records.
+
+
+In Worksheet 3:
+Interactions: Hovering over a line area will give the details:
+    1. Year of occur date of the next point.
+    2. Number of records.
+
+    
+
+Year Drop down.
+
 Worksheets 1 and 2 change with year selected in the drop-down and user interaction is possible. 
 Worksheet 3 remains independant of the year drop down.
+  
 
 My Tablue Workbook is uploaded in the repository. 
 Link : https://github.com/Clemson-CPSC8040/assignment-3-Supreeth095/blob/master/Workbook%20.twb
