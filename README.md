@@ -50,21 +50,31 @@ Let's try to create a heatmap simply showing the number of crimes reported since
 
 Design choices: 
 
-1..I have used the amount of luminance to display the heat map for the number of crimes. 
+
+1.I have used the amount of luminance to display the heat map for the number of crimes. 
+
 A higher luminance implies high crime rate.
+
 A lower luminance implies lower crime rate.
+
 This is intuitive to the observer.
+
 
 2.I have used Area to display the various NPUs. This is the best for of representation as all the details such as size, shape of the NPU etc. can be seen by the user. 
 
+
 3. Since the data set focuses on crime records since 2008, I have filtered out the previous years' records for all visualizations. 
+
+
 4. Interactions: Hovering over an NPU area will give the details:
+
     1. Name of the NPU
+    
     2. Year of occur date
+    
     3. Number of records.
-
-
-
+    
+    
 
 Attributes and their marks and channels are:
 
@@ -101,19 +111,31 @@ Take the sketches you made during assignment 2 for answering the following quest
 
 Design choices: 
 
+
 1.I have used the amount of saturation+ hue (yellow to red) to display the heat map for the number of crimes. 
+
 A higher luminance implies high crime rate.
+
 A lower luminance implies lower crime rate.
+
 This is intuitive to the observer.
+
 
 2.I have used Area to display the various Neighborhoods. This is the best for of representation as all the details such as size, shape of the Neighborhood etc., can be seen by the user. 
 
+
+
 3.I have added a time drop down so that the user can see the values based on the year. 
 
+
 4. Interactions: Hovering over an Neigborhood area will give the details:
+
     1. Name of the Neigborhood
+    
     2. Year of occur date
+    
     3. Number of records.
+    
 
 
 
@@ -139,7 +161,6 @@ Channel: color
 
 
 
-
 2. What are the most dangerous times of day?
 
 
@@ -150,14 +171,18 @@ Channel: color
 Design choices: 
 
 I have used hour(time) as a position on the Y axis and number of crimes on the X axis. 
+
 I have used a bar chart so that it is easy to get the trends of crimes in the day and over the years. 
+
 I have added a time drop down so that the user can see the values based on the year. 
 
 Interactions: Hovering over a bar area will give the details:
-    1. Hour part in the time interval
-    2. Year of occur date
-    3. Number of records.
 
+    1. Hour part in the time interval
+    
+    2. Year of occur date
+    
+    3. Number of records.
 
 
 
@@ -184,7 +209,6 @@ Channel: Position(Horizontal)
 
 
 
-
 3. Are crimes increasing or decreasing since 2008?
 
 ![chart1](/Sheet4.png)
@@ -193,10 +217,13 @@ Channel: Position(Horizontal)
 Design choices: 
 
 I have used year(time) as a position on the X axis and number of crime records on the Y axis. 
+
 I have used a line chart so that it is easy to get the trends of total yearly crimes.
 
 Interactions: Hovering over a line area will give the details:
+
     1. Year of occur date of the next point.
+    
     2. Number of records.
 
 
@@ -234,43 +261,64 @@ Create a dashboard for studying the crimes in the city of Atlanta. The dashboard
 
 Interactions provided by the Dashboard:
 
+
 Dashboard contains 3 worsheets:
+
 Worksheet 1. Most Dangerous Neighbourhoods in Atlanta.
+
 Worksheet 2. Most Dangerous times of day in Atlanta.
+
 Worksheet 3. Crime trends since 2008 in Atlanta.
+
 
 Interactions:
 
 
+
 In Worksheets 1:
+
     Hovering over an Neigborhood area will give the details:
+    
     1. Name of the Neigborhood
+    
     2. Year of occur date
+    
     3. Number of records.
+    
 
 In Worksheet 2:
+
   Interactions: Hovering over a bar area will give the details:
+  
     1. Hour part in the time interval
+    
     2. Year of occur date
+    
     3. Number of records.
+    
 
 
 In Worksheet 3:
-Interactions: Hovering over a line area will give the details:
-    1. Year of occur date of the next point.
-    2. Number of records.
 
+Interactions: Hovering over a line area will give the details:
+
+    1. Year of occur date of the next point.
+    
+    2. Number of records.
     
 
-Year Drop down.
+    
+Year Drop-down interactions:
+
 
 Worksheets 1 and 2 change with year selected in the drop-down and user interaction is possible. 
+
 Worksheet 3 remains independant of the year drop down.
   
 
-My Tablue Workbook is uploaded in the repository. 
-Link : https://github.com/Clemson-CPSC8040/assignment-3-Supreeth095/blob/master/Workbook%20.twb
 
+### Submission
+My Tablue Workbook has been uploaded to the repository. 
 
 
 ### Submission
