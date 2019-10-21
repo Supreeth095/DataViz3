@@ -56,7 +56,7 @@ A lower luminance implies lower crime rate.
 This is intuitive to the observer.
 
 2.I have used Area to display the various NPUs. This is the best for of representation as all the details such as size, shape of the NPU etc. can be seen by the user. 
-3. Since the data set focuses on crime records since 2008, I have filtered out the previous year's records for all visualizations. 
+3. Since the data set focuses on crime records since 2008, I have filtered out the previous years' records for all visualizations. 
 
 
 Attributes and their marks and channels are:
