@@ -46,6 +46,35 @@ Let's try to create a heatmap simply showing the number of crimes reported since
 ![chart1](/Sheet1.png)
 
 
+Attributes and their marks and channels are:
+
+1.NPU Name
+
+Type:Categorical
+
+Mark: Area
+
+Channel: Shape
+
+2.Number of records
+
+Type:Ordinal
+
+Mark: Area
+
+Channel: color
+
+
+Design choices: 
+
+1..I have used the amount of luminance to display the heat map for the number of crimes. 
+A higher luminance implies high crime rate.
+A lower luminance implies lower crime rate.
+This is intuitive to the observer.
+
+2.I have used Area to display the various NPUs. This is the best for of representation as all the details such as size, shape of the NPU etc. can be seen by the user. 
+
+
 
 
 #### Step 3 - From sketches to visualizations.
@@ -76,12 +105,23 @@ Mark: Area
 
 Channel: color
 
+Design choices: 
+
+1.I have used the amount of saturation+ hue (yellow to red) to display the heat map for the number of crimes. 
+A higher luminance implies high crime rate.
+A lower luminance implies lower crime rate.
+This is intuitive to the observer.
+
+2.I have used Area to display the various Neighborhoods. This is the best for of representation as all the details such as size, shape of the Neighborhood etc., can be seen by the user. 
+
 
 
 
 2. What are the most dangerous times of day?
 
+
 ![chart1](/Sheet3.png)
+
 
 Attributes and their marks and channels are:
 
@@ -99,13 +139,21 @@ Type:Quantitative
 
 Mark: point
 
-Channel: Position(Horizontal)+ Size(Length)
+Channel: Position(Horizontal)
 
+
+
+
+Design choices: 
+
+I have used hour(time) as a position on the Y axis and number of crimes on the X axis. 
+I have used a bar chart so that it is easy to get the trends of crimes in the day and over the years. 
 
 
 3. Are crimes increasing or decreasing since 2008?
 
 ![chart1](/Sheet4.png)
+
 
 
 Attributes and their marks and channels are:
@@ -125,6 +173,11 @@ Type:Quantitative
 Mark: Point
 
 Channel: Position(Vertical) 
+
+Design choices: 
+
+I have used year(time) as a position on the X axis and number of crimes on the Y axis. 
+I have used a line chart so that it is easy to get the trends of total yearly crimes.
 
 
 Create three worksheets either by implementing your original sketches submitted for Assignment 2 or by creating brand new visualizations.
